@@ -1,10 +1,12 @@
 {
+    "pages": {},
     "forms": {
         "newWord": {
             "title": "Enter a new word",
             "inputs": [
-                {"label": "Enter word:", "type": "text", "name": "word"},
-                {"label": "Meaning/Description:", "type": "text", "name": "description"}
+                {"label": "Word:", "type": "text", "name": "word"},
+                {"label": "Translation:", "type": "text", "name": "translation"},
+                {"label": "Description:", "type": "text", "name": "description"}
             ]
         }
     }

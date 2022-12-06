@@ -1,5 +1,4 @@
 import { Form } from './components'
-import { initFormArgs } from "./tsTypes/formTypes";
 import data from './data/frontend-data.json'
 
 function App() {
@@ -7,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <Form {...data.forms.newWord}/>
+      {/* How to handle no args? */}
+      {/* <Form/> */}
     </div>
   )
 };
