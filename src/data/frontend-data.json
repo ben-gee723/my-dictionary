@@ -1,0 +1,11 @@
+{
+    "forms": {
+        "newWord": {
+            "title": "Enter a new word",
+            "inputs": [
+                {"label": "Enter word:", "type": "text", "name": "word"},
+                {"label": "Meaning/Description:", "type": "text", "name": "description"}
+            ]
+        }
+    }
+}
